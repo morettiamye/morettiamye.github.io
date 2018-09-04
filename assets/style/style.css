@@ -61,3 +61,35 @@ p {
     border: 1px dashed black;
     width: 550px;
 }
+
+
+/* Portfolio */
+h3 {
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+#appdoption {
+    border: 1px solid black;
+    float: right;
+    /* vertical-align: baseline; */
+}
+
+.pText {
+    width: 60%;
+    margin-left: 10px;
+    float: left;
+}
+
+.pImage {
+    border: 1px solid black;
+    border-radius: 25px;
+    float: right;
+    height: 150px;
+    width: 150px;
+
+}
+
+
+br {
+    clear: both;
+}
