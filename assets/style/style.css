@@ -1,3 +1,32 @@
+/* Link Styling */
+
+a:link {
+    color: #9A5278;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:visited {
+    color: #9A5278;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    color: #9A5278;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:active {
+    color: #9A5278;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 /* Nav Style*/
 #nav {
@@ -68,12 +97,6 @@ h3 {
     font-family: 'Kosugi Maru', sans-serif;
 }
 
-#appdoption {
-    border: 1px solid black;
-    float: right;
-    /* vertical-align: baseline; */
-}
-
 .pText {
     width: 60%;
     margin-left: 10px;
@@ -84,12 +107,35 @@ h3 {
     border: 1px solid black;
     border-radius: 25px;
     float: right;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 
 }
 
-
 br {
     clear: both;
+}
+
+/* Footer Styling*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+}
+button {
+    border-radius: 25px;
+    border: 1px solid black;
+    font-family: 'Kosugi Maru', sans-serif;
+    letter-spacing: 1px;
+    height: 25px;     
+}
+
+.contactIMG {
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+
 }
