@@ -6,24 +6,50 @@
     <title>Amy Moretti - Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Custom Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/custom.css">
 
 </head>
 
-<body>
-        <div class="jumbotron jumbotron-fluid bg-primary">
-                <div class="container">
-                  <h1 class="display-4">Fluid jumbotron</h1>
-                  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                </div>
-              </div>
-                    
-      </div>
+<body class="bg-light">
 
-      
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-primary shadow">
+    <div class="container text-center">
+      <img src="assets/images/myAvatar.png" alt="Amy" class="rounded-circle border border-secondary amy" />
+      <h1 class="display-4 text-light"><strong>Hi! I'm Amy!</strong></h1>
+      <p class="lead text-light">I'm a developer, CSS enthusiast, and cat mom living in Chicago, IL</p>
+    </div><!-- Close container-->
+  </div><!-- Close Jumbotron-->
+
+  <div class="container-fluid bg-secondary shadow">
+    <h2>Projects</h2>
+
+    <div class="card campaign bg-light text-dark p-2 m-5">
+        <div class="card-header text-dark">
+            <h3>Campaign Query</h3>
+        </div>
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+      </div> <!-- Close campaign card -->
+
+      <br/>
+
+  </div><!-- Close container -->
+
+
+      <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
 </body>
 </html>
