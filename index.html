@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Amy Moretti - Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom Bootstrap CSS -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/custom.css">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Amy Moretti - Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Custom Bootstrap CSS -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/custom.css">
 
 </head>
 
@@ -20,36 +21,72 @@
     <div class="container text-center">
       <img src="assets/images/myAvatar.png" alt="Amy" class="rounded-circle border border-secondary amy" />
       <h1 class="display-4 text-light"><strong>Hi! I'm Amy!</strong></h1>
-      <p class="lead text-light">I'm a developer, CSS enthusiast, and cat mom living in Chicago, IL</p>
+      <p class="lead text-light">I'm a developer, tech enthusiast, and cat mom living in Chicago, IL</p>
     </div><!-- Close container-->
   </div><!-- Close Jumbotron-->
 
-  <div class="container-fluid bg-secondary shadow">
+  <!-- Projects -->
+  <div class="container-fluid shadow bg-secondary">
+    <div class="row bg-danger shadow-sm p-2">
+      <div class="col-12 text-center text-light">
     <h2>Projects</h2>
-
-    <div class="card campaign bg-light text-dark p-2 m-5">
-        <div class="card-header text-dark">
-            <h3>Campaign Query</h3>
+  </div>
+</div> <!-- Close row -->
+    <div class="row m-5">
+      <div class="col-12 col-md-4">
+      <div class="card bg-info text-dark shadow text-center">
+        <div class="card-body">
+          <h3 class="text-center">Campaign Query</h3>
+          <p class="card-text">Focused on campaign finance data, this project utilizes Amcharts in conjuction with the Federal Election Commission API to display meaningful finance data in a clean, streamlined manner.</p>
+          <button type="button" class="btn btn-primary btn-sm">About</button>
+          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
+          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
         </div>
-              <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
       </div> <!-- Close campaign card -->
+    </div><!-- Close column -->
 
-      <br/>
+    <div class="col-12 col-md-4">
+      <div class="card appdoption bg-info text-dark shadow text-center">
+          <div class="card bg-info text-dark">
+          <div class="card-body">
+            <h3 class="text-center">appDoption</h3>
+            <p class="card-text">A front-end, photos focused application for searching adoptable pets in your area.  This application was created with the usability of Instagram in mind.</p>
+            <button type="button" class="btn btn-primary btn-sm">About</button>
+          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
+          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
+          </div>
+          </div>
+      </div> <!-- Close appdoption card -->
+    </div><!-- Close column -->
 
+    <div class="col-12 col-md-4">
+      <div class="card campaign bg-info text-dark shadow text-center">
+          <div class="card bg-info text-dark">
+          <div class="card-body">
+            <h3 class="text-center">Virtual Hostel</h3>
+            <p class="card-text">Built using React and Passport.js, this project allows the user to post reviews of travel experiences and view others reviews and suggested itineraries.  </p>
+          
+            <button type="button" class="btn btn-primary btn-sm">About</button>
+          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
+          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
+         
+          </div>
+          </div>
+      </div> <!-- Close virtual hostel card -->
+    </div><!-- Close column -->
+    </div><!-- Close row -->
+  <br/>
   </div><!-- Close container -->
 
 
-      <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
 </body>
+
 </html>
