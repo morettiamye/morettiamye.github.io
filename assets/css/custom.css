@@ -11,3 +11,12 @@ h1, h2, h3 {
 a {
     font-weight: 700;
 }
+
+.fab, .fas {
+    font-size: 48px;
+    margin: 5px;
+}
+
+.icon {
+    font-size: 12px;
+}
