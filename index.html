@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans:400,700" rel="stylesheet">
   <!-- Custom Bootstrap CSS -->
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <!-- Custom CSS -->
@@ -27,57 +27,103 @@
     </div><!-- Close container-->
   </div><!-- Close Jumbotron-->
 
+  <!-- About -->
+  <div class="container-fluid shadow bg-secondary">
+    <div class="row bg-danger shadow-sm pt-3">
+      <div class="col-12 text-center text-light">
+        <h2>About</h2>
+      </div>
+    </div> <!-- Close row -->
+    <div class="row m-5 pb-5">
+      <div class="col-12">
+        <div class="card  bg-info text-dark">
+          <div class="card-body">
+            
+              <p>My name is Amy. I'm a developer, with a love for CSS and all things style sheets. Originally from Tennessee, I've lived in Chicago by way of New Jersey for the last 8 years with my wonderful husband and our two cats.  </p>
+
+              <p> I started
+                  out designing and building websites for friends back in the early 2000s, when in-line scrolling frames
+                  were all
+                  the rage and we built our designs in Paintshop Pro.Fast forward about 15 years, I've now had a career as a <a href="http://www.expressjet.com" target="_blank">flight
+                  attendant
+                </a> and spent a considerable amount of time in <a href="https://xkcd.com/1743/" target="_blank">specialty
+                  coffee
+                </a>. I guess you could say I love traveling and good coffee.</p>
+
+              <p>My back end developer <a href="https://www.moreready.com/tony/">husband</a> helped me reignite my passion for web development
+                and design,
+                leading me to enroll at the <a href="https://bootcamp.northwestern.edu/coding/" target="_blank">Northwestern
+                  University Web Dev Bootcamp.</a> I've brushed up on HTML and CSS, and stuck my toes in the JavaScript
+                water.  I've learned that I love learning new development languages, and building beautiful things.  Now I'm excited to see where development can take me.</p>
+
+                <p>When I'm not developing or perusing the internet, I enjoy things like playing video games, catching all the Pokemon, and shopping for animation cels to add to my ever growing collection. </p>
+            
+          </div>
+        </div>
+      </div>
+    </div><!-- Close row -->
+  </div><!-- Close container -->
+
   <!-- Projects -->
   <div class="container-fluid shadow bg-secondary">
-    <div class="row bg-danger shadow-sm p-2">
+    <div class="row bg-danger shadow-sm pt-3">
       <div class="col-12 text-center text-light">
-    <h2>Projects</h2>
-  </div>
-</div> <!-- Close row -->
+        <h2>Projects</h2>
+      </div>
+    </div> <!-- Close row -->
+
     <div class="row m-5">
-      <div class="col-12 col-md-4">
-      <div class="card bg-info text-dark shadow text-center">
-        <div class="card-body">
-          <h3 class="text-center">Campaign Query</h3>
-          <p class="card-text">Focused on campaign finance data, this project utilizes Amcharts in conjuction with the Federal Election Commission API to display meaningful finance data in a clean, streamlined manner.</p>
-          <button type="button" class="btn btn-primary btn-sm">About</button>
-          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
-          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
-        </div>
-      </div> <!-- Close campaign card -->
-    </div><!-- Close column -->
 
-    <div class="col-12 col-md-4">
-      <div class="card appdoption bg-info text-dark shadow text-center">
-          <div class="card bg-info text-dark">
+      <!-- Cards -->
+      <div class="card-deck">
+        <div class="card bg-info text-dark text-center">
+            <img class="card-img-top" src="./assets/images/campaignquery.png" alt="Campaign Query">
           <div class="card-body">
-            <h3 class="text-center">appDoption</h3>
-            <p class="card-text">A front-end, photos focused application for searching adoptable pets in your area.  This application was created with the usability of Instagram in mind.</p>
+            <h3>Campaign Query</h3>
+            <p class="card-text">Focused on campaign finance data, this project utilizes Amcharts in conjuction with
+              the Federal Election Commission API to display meaningful finance data in a clean, streamlined manner.</p>
+            </div>
+            <div class="card-footer">
             <button type="button" class="btn btn-primary btn-sm">About</button>
-          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
-          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
-          </div>
-          </div>
-      </div> <!-- Close appdoption card -->
-    </div><!-- Close column -->
+            <button type="button" class="btn btn-primary btn-sm">Github</button>
+            <button type="button" class="btn btn-primary btn-sm">Deployed</button>
+            </div>
+        </div> <!-- Close campaign card -->
 
-    <div class="col-12 col-md-4">
-      <div class="card campaign bg-info text-dark shadow text-center">
-          <div class="card bg-info text-dark">
+
+        <div class="card bg-info text-dark text-center">
+            <img class="card-img-top" src="./assets/images/appdoption.png" alt="App Doption">
           <div class="card-body">
-            <h3 class="text-center">Virtual Hostel</h3>
-            <p class="card-text">Built using React and Passport.js, this project allows the user to post reviews of travel experiences and view others reviews and suggested itineraries.  </p>
-          
+            <h3>appDoption</h3>
+            <p class="card-text">A front-end, photos focused application for searching adoptable pets in your area.
+              This application was created with the usability of Instagram in mind and connects with the Petfinder API.</p>
+            </div>
+            <div class="card-footer">
             <button type="button" class="btn btn-primary btn-sm">About</button>
-          <button type="button" class="btn btn-primary btn-sm">Github Repo</button>
-          <button type="button" class="btn btn-primary btn-sm">Deployed</button>
-         
+            <button type="button" class="btn btn-primary btn-sm">Github</button>
+            <button type="button" class="btn btn-primary btn-sm">Deployed</button>
           </div>
+        </div> <!-- Close appdoption card -->
+
+
+        <div class="card campaign bg-info text-dark text-center">
+            <img class="card-img-top" src="./assets/images/virtualhostel.png" alt="Card image cap">
+          <div class="card-body">
+            <h3>Virtual Hostel</h3>
+            <p class="card-text">Built using React, this project allows the user to post reviews of
+              travel experiences and view others reviews and suggested itineraries. User authentication is provided
+              using Passport.js.</p>
+          </div>  
+          <div class="card-footer">
+            <button type="button" class="btn btn-primary btn-sm">About</button>
+            <button type="button" class="btn btn-primary btn-sm">Github</button>
+            <button type="button" class="btn btn-primary btn-sm">Deployed</button>
           </div>
-      </div> <!-- Close virtual hostel card -->
-    </div><!-- Close column -->
+        </div> <!-- Close virtual hostel card -->
+      </div> <!-- Close card group -->
+
     </div><!-- Close row -->
-  <br/>
+    <br />
   </div><!-- Close container -->
 
 
