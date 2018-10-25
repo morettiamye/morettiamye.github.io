@@ -20,3 +20,11 @@ a {
 .icon {
     font-size: 12px;
 }
+
+.nwu, .asu {
+    height: 75px;
+}
+
+.footertext {
+    font-size: 12px;
+}
