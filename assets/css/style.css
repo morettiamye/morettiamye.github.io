@@ -38,6 +38,7 @@ header {
     width: 200px;
     border-radius: 50%;
     margin-bottom: -20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #greeting {
@@ -80,6 +81,21 @@ header {
     justify-content: space-evenly;
 }
 
+.card {
+    width: 300px;
+}
+
+table {
+    width: 280px;
+}
+
+td {
+    padding-bottom: 5px;
+}
+tr {
+    padding: 10px;
+    font-size: 12px;
+}
 .uni-logo {
     width: 200px;
 }
@@ -90,6 +106,24 @@ header {
 
 i {
     font-size: 48px;
+}
+
+.large-card {
+    width: 600px;
+}
+
+button {
+    border: 1px solid #51565D;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #93858D; 
+    color: #F8F9FA;
+    font-size: 10px;
+}
+
+#appdoption {
+    height: 250px;
 }
 
 footer {
