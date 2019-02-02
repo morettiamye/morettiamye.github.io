@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Karla');
+
+
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+
+    font-family: 'Karla', sans-serif;
+}
+
+.header {
+  background-image: url("images/cat.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    position: relative;
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.header-nav {
+  min-width: 100%;
+
+}
+
+
+.header-nav, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  overflow: hidden;
+  
+}
+
+.header-nav, li {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  color: #E4DED2;
+}
+
+.caption {
+  position: absolute;
+  left: 15%;
+  top: 5%;
+
+  text-align: center;
+  font-family: 'Karla', sans-serif; 
+  color: #E4DED2;
+  text-shadow: 0px 0px 1px #000000;
+  font-size: 36px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Dancing Script', cursive;
+
+}
