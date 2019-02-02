@@ -6,34 +6,38 @@ body, html {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0;
-
     font-family: 'Karla', sans-serif;
 }
 
-.header {
-  background-image: url("images/cat.jpg");
-    background-size: cover;
+.background {
+  background-size: cover;
+  background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100%;
     position: relative;
+  }
+  
+  .cat1 {
+    background-image: url("images/cat.jpg");
+    min-height: 100%;
+    
+}
 
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.cat2 {
+  background-image: url("images/cat.jpg");
+  min-height: 400px;
 }
 
 .header-nav {
   min-width: 100%;
-
 }
-
 
 .header-nav, ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   padding-right: 10px;
-  overflow: hidden;
-  
+  overflow: hidden;  
 }
 
 .header-nav, li {
@@ -49,7 +53,6 @@ body, html {
   position: absolute;
   left: 15%;
   top: 5%;
-
   text-align: center;
   font-family: 'Karla', sans-serif; 
   color: #E4DED2;
@@ -60,5 +63,16 @@ body, html {
 h1 {
   font-size: 72px;
   font-family: 'Dancing Script', cursive;
-
 }
+
+h2 {
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.content {
+  background-color: #E4DED2;
+  padding: 20px 100px;
+}
+
