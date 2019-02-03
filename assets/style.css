@@ -78,6 +78,11 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+
 .content {
   background-color: #E4DED2;
   padding: 30px 100px;
@@ -88,6 +93,20 @@ h2 {
   overflow-x: auto;
 
 }
+
+.projects {
+  text-align: center;
+}
+
+.projects > p {
+  text-align: justify;
+}
+
+img {
+  width: 500px;
+}
+
+
 
 table {
   width: 80%;
@@ -119,7 +138,7 @@ input, textarea {
   text-align: center;
 }
 
-p > a, p > a:visited, p > a:link, p > a:hover {
+h4 > a:visited, h4 > a:link, h4 > a:hover, p > a, p > a:visited, p > a:link, p > a:hover {
   color: #434142;
   text-decoration: none;
   font-weight: bold;

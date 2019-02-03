@@ -2,259 +2,170 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Amy Moretti - Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amy Moretti - Front End Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Kalam|Open+Sans:400,700" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-
-  <!-- Custom Bootstrap CSS -->
-  <link rel="stylesheet" href="./assets/css/bootstrap.css">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/custom.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
 
 </head>
 
-<body class="bg-light">
+<body>
+    <div class="header cat1 background">
+    
+       <div class="header-nav">
+           <ul class="nav-list">
+               <li><a href="#contact">Contact</a></li>
+               <li><a href="assets/resume.pdf">Resume</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#bio">Bio</a></li>
+           </ul>
+       </div>
+       <div class="caption">
+           <p>Hi! I'm <h1>Amy Moretti</h1><br/>
+            I'm a front end developer in Chicago.<br/>
+            I create responsive, accessible websites.<br/>
+            I also love cats and fancy coffee.
+        </p>
+       </div>
+    </div>
 
-  <!-- Jumbotron -->
-  <div class="jumbotron jumbotron-fluid bg-primary shadow">
-    <div class="container text-center">
-      <img src="assets/images/myAvatar.png" alt="Amy" class="rounded-circle border border-secondary amy" />
-      <h1 class="display-4 text-light"><strong>Hi! I'm Amy!</strong></h1>
-      <p class="lead text-light">I'm a developer, tech enthusiast, and cat mom living in Chicago, IL</p>
-    </div><!-- Close container-->
-  </div><!-- Close Jumbotron-->
+    <div class="bio content">
+        <h2><a id="bio">Bio</a></h2>
+        <p>I started out designing and building websites for friends back in the early 2000s, when in-line scrolling frames were all the rage and we built our designs in Paintshop Pro.  More than 15 years later, I've now had a career as a <a href="https://www.expressjet.com/" target="_blank">flight attendant</a> and spent a considerable amount of time in <a href="https://xkcd.com/1743/" target="_blank">specialty coffee</a>, but always felt myself missing web development.  In the summer of 2018 I decided to leave my management position at a local coffee roaster to pursue development, and attended the <a href="https://bootcamp.northwestern.edu/coding/" target="_blank">Northwestern University Full Stack Coding Bootcamp</a> to bring my skills up to date.  Since then I have learned to love JavaScript and CSS, and prefer to focus on creating efficient, responsive, and accessible websites.</p>
+        <p>My software developer husband <a href="https://www.moreready.com/tony/" target="_blank">Tony</a> and I live in the Edgewater neighborhood of Chicago along with our two cats Eloise and Fruff.  When not working on web development, I can be found drinking lattes, playing video games, and cross stitching.  I am also an avid collector of animation cels from my two favorite magical girl animes, Sailor Moon and Cardcaptor Sakura.  This hobby has led me to spending many late nights and early mornings bidding against others on Yahoo! Japan Auctions.</p>
+    </div>
 
+    <div class="cat2 background"></div>
 
-  <!-- Skills -->
-  <div class="container-fluid shadow bg-secondary">
-    <div class="row bg-danger shadow-sm pt-3">
-      <div class="col-12 text-center text-light">
-        <h2>Skills & Experience</h2>
-      </div>
-    </div> <!-- Close row -->
-
-    <div class="row m-5 pb-5">
-      <div class="col-12">
-
-      <!-- Cards -->
-      <div class="card-deck">
-        <div class="card bg-info text-dark text-center">
-          <div class="card-body">
-              <h3 class="pb-3">Skills</h3>
-            <div class="row">
-              <div class="col">
-                <i class="fab fa-html5"></i>
-                <p class="icon">HTML</p>
-              </div>
-              <div class="col">
-                <i class="fab fa-css3"></i>
-                <p class="icon">CSS<br/>
-                Bootstrap<br/>
-              Materialize</p>
-              </div>
-            </div><!-- Close row -->
-            <div class="row">
-              <div class="col">
-                <i class="fab fa-js-square"></i>
-                <p class="icon">Javascript<br/>
-                jQuery</p>
-              </div>
-              <div class="col">
-                <i class="fab fa-react"></i>
-                <p class="icon">React</p>
-              </div>
-            </div><!-- Close row -->
-            <div class="row">
-              <div class="col">
-                <i class="fab fa-node"></i>
-                <p class="icon">Node JS</p>
-              </div>
-              <div class="col">
-                <i class="fab fa-npm"></i>
-                <p class="icon">NPM<br/>
-                Express</p>
-              </div>
-            </div><!-- Close row -->
-            <div class="row">
-              <div class="col">
-              <i class="fab fa-github"></i>
-              <p class="icon">Github<br/>
-              Git</p>
-              </div>
-              <div class="col">
-                  <i class="fab fa-adobe"></i>
-                  <p class="icon">Adobe Photoshop<br/>
-                  Adobe Illustrator</p>
-              </div>
-            </div><!-- Close row -->
-          </div>
-        </div><!-- Close card -->
-
-        <div class="card bg-info text-dark">
-          <div class="card-body text-center">
-            <h3 class="pb-3">Education</h3>
-            <p class="card-text">
-                <img src="assets/images/northwestern.png" class="nwu img-fluid" alt="Northwestern University"><br/>
-                Web Development Coding Bootcamp<br/>
-                July 2018 - October 2018<br/>
-                <br/>
-                <br/>
-                <img src="assets/images/asu.png" class="asu img-fluid" alt="Arizona State University"><br/>
-                Bachelor of Arts, History<br/>
-                2011-2015
-            </p>
-          </div>
-        </div><!-- Close card -->
-
-        <div class="card bg-info text-dark text-center">
-          <div class="card-body">
-              <h3 class="pb-3">Experience</h3>
-            <p class="card-text">
-                <i class="fas fa-coffee"></i><br/>
-                Metropolis Coffee Co<br/>
-                Shift Leader<br/>
-                2016-2018<br/>
-                <br/>
-                <i class="fas fa-plane"></i><br>
-                ExpressJet Airlines<br/>
-                Flight Attendant<br/>
-                2010 - 2015
-            </p>
-            <br/>
-            <p><a href="./assets/resume.pdf">Download Resume</a></p>
-          </div>
-        </div><!-- Close card -->
-
-      </div><!-- Close card deck -->
-      </div><!-- Close col -->
-    </div><!-- Close row -->
-  </div><!-- Close container -->
-
-  <!-- Projects -->
-  <div class="container-fluid shadow bg-secondary">
-    <div class="row bg-danger shadow-sm pt-3">
-      <div class="col-12 text-center text-light">
-        <h2>Projects</h2>
-      </div>
-    </div> <!-- Close row -->
-
-    <div class="row m-5 pb-5">
-
-      <!-- Cards -->
-      <div class="card-deck">
-          <div class="card bg-info text-dark">
-              <img class="card-img-top" src="./assets/images/appdoptionv2.png" alt="Appdoption">
-              <div class="card-body">
-                <h3 class="text-center">appDoption</h3>
-                <p class="card-text">A front-end, photos focused application for searching adoptable pets in your area.
-                  This application was created with the usability of Instagram in mind and connects with the Petfinder API.
-                  This was completed as my first project for web development bootcamp. My role on this project was as
-                  project manager and UI/UX design and development. For this project I chose to learn the Materialize CSS
-                  framework, which ultimately led me to a much better grasp of responsiveness and CSS gridding to achieve
-                  the desired layout.<br>
-                  <br>
-                  Upon completion of bootcamp this was the first project I wanted to revisit. I spent additional time improving the UI to be more heavily similar to Instagram, as a large portion of our feedback was that given the goals of the project, the instruction team wanted to see it look and feel more like Instagram. With more time and fewer hard requirements, I was also able to improve upon the useage of the api and add an initial display of random results, so that the user could see what sort of content would be displayed once a search was conducted. Each step of the way I ensured that Appdoption would function just as easily on mobile as it does on desktop. I am very proud of Appdoption Version 2.
-                  </p>
-              </div>
-              <div class="card-footer text-center">
-                  <a href="https://github.com/morettiamye/appdoptionv2"><button type="button" class="btn btn-primary btn-sm">Github</button></a>
-                  <a href="https://morettiamye.github.io/appdoptionv2"><button type="button" class="btn btn-primary btn-sm">Deployed</button></a>
-              </div>
-            </div> <!-- Close appdoption card -->
-
-
-        <div class="card bg-info text-dark">
-          <img class="card-img-top" src="./assets/images/campaignquery.png" alt="Campaign Query">
-          <div class="card-body">
-            <h3 class="text-center">Campaign Query</h3>
-            <p class="card-text">Focused on campaign finance data, this project utilizes Amcharts and Highcharts in
-              conjuction with
-              the Federal Election Commission API to display meaningful finance data in a clean, streamlined manner.
-              Created as my second project for web development bootcamp, this was our first full-stack project. My role
-              was project manager in addition to UX/UI and assisting with API calls. My goal with this project was to
-              use simple, modular CSS as opposed to using a framework. It turned out to be much more difficult than
-              initially anticipated, but I was ultimately able to make it work.</p>
-          </div>
-          <div class="card-footer text-center">
-              <a href="https://github.com/morettiamye/campaignQuery"><button type="button" class="btn btn-primary btn-sm">Github</button></a>
-            <a href="https://campaignquery.herokuapp.com"><button type="button" class="btn btn-primary btn-sm">Deployed</button></a>
-          </div>
-        </div> <!-- Close campaign card -->       
-      </div> <!-- Close card group -->
-
-    </div><!-- Close row -->
-  </div><!-- Close container -->
-
-   <!-- About -->
-   <div class="container-fluid shadow bg-secondary">
-      <div class="row bg-danger shadow-sm pt-3">
-        <div class="col-12 text-center text-light">
-          <h2>About</h2>
+    <div class="skills content">
+            <h2><a id="skills">Skills</a></h2>
+        
+            <table>
+                <tr>
+                    <td>
+                        <i class="fab fa-html5"></i>
+                    </td>
+            
+                    <td>
+                        <i class="fab fa-css3"></i>
+                    </td>
+                    <td>
+                        <i class="fab fa-js-square"></i>
+                    </td>
+                    <td>
+                        <i class="fab fa-node"></i>
+                    </td>
+                    <td>
+                        <i class="fab fa-github"></i>
+                    </td>
+                 
+                </tr>
+                <tr>
+                    <td>
+                        HTML
+                    </td>
+                    <td>
+                        CSS3<br />
+                        Bootstrap<br />
+                        Materialize
+                    </td>
+                    <td>
+                        Javascript<br />
+                        ES6<br />
+                        jQuery
+                    </td>
+                    <td>
+                        Node JS<br />
+                        NPM<br />
+                        Express<br />
+                    </td>
+                    <td>
+                        Git<br />
+                        Github<br />
+                        Heroku
+                    </td>
+                </tr>
+            </table>
+                        
         </div>
-      </div> <!-- Close row -->
-      <div class="row m-5 pb-5">
-        <div class="col-12">
-          <div class="card  bg-info text-dark">
-            <div class="card-body">
-  
-              <p>My name is Amy. I'm a developer, with a love for CSS and all things style sheets. Originally from
-                Tennessee, I've lived in Chicago by way of New Jersey for the last 8 years with my wonderful husband and
-                our two cats. </p>
-  
-              <p> I started
-                out designing and building websites for friends back in the early 2000s, when in-line scrolling frames
-                were all
-                the rage and we built our designs in Paintshop Pro.Fast forward about 15 years, I've now had a career as
-                a <a href="http://www.expressjet.com" target="_blank">flight
-                  attendant
-                </a> and spent a considerable amount of time in <a href="https://xkcd.com/1743/" target="_blank">specialty
-                  coffee
-                </a>. I guess you could say I love traveling and good coffee.</p>
-  
-              <p>My back end developer <a href="https://www.moreready.com/tony/">husband</a> helped me reignite my
-                passion for web development
-                and design,
-                leading me to enroll at the <a href="https://bootcamp.northwestern.edu/coding/" target="_blank">Northwestern
-                  University Web Dev Bootcamp.</a> I've brushed up on HTML and CSS, and stuck my toes in the JavaScript
-                water. I've learned that I love learning new development languages, and building beautiful things. Now
-                I'm excited to see where development can take me.</p>
-  
-              <p>When I'm not developing or perusing the internet, I enjoy things like playing video games, catching all
-                the Pokemon, and shopping for animation cels to add to my ever growing collection. </p>
-  
-            </div>
-          </div>
-        </div>
-      </div><!-- Close row -->
-    </div><!-- Close container -->
+    
+        <div class="cat2 background"></div>
 
-  <footer class="bg-success">
-    <div class="container">
-      <div class="row pt-2">
-        <div class="col text-center text-light">
-            <a href="https://www.github.com/morettiamye" target="blank"><i class="fab fa-github-square text-light"></i></a>
-            <a href="https://www.linkedin.com/in/morettiamye/" target="blank"><i class="fab fa-linkedin text-light"></i></a>
-            <a href="mailto:amyemoretti@gmail.com"><i class="fas fa-envelope-square text-light"></i></a>
-            </div>
-      </div><!-- Close row -->
-      <div class="row">
-        <div class="col text-center text-light">
-        <p class="footertext"></p>Amy Moretti | Last Updated January 2019<br/>
-          Built with Bootstrap</p>
-        </div>
-      </div>
-    </div> <!-- Close container -->
-  </footer>
+    <div class="projects content">
+    <h2><a id="projects">Projects</a></h2>
+    <br/>
+        <h3>appdoption</h3>
+        <h4><a href="https://morettiamye.github.io/appdoption/" target="_blank">Version 1</a> | 
+            <a href="https://www.github.com/morettiamye/appdoption/" target="_blank">Github</a> <br/>
+            <a href="https://morettiamye.github.io/appdoptionv2">Version 2</a> | 
+            <a href="https://www.github.com/morettiamye/appdoptionv2" target="_blank">Github</a></h4>
+            <a href="https://morettiamye.github.io/appdoption/" target="_blank"><img src="./assets/images/appdoptionv1.png" alt="Appdoption Version 1"></a>
+            <a href="https://morettiamye.github.io/appdoptionv2"><img src="./assets/images/appdoption.png" alt="Appdoption Version 2"></a>
+        <p>A front-end, photos focused application for searching adoptable pets in your area. This application was created with the usability of Instagram in mind and connects with the Petfinder API, and was created as a way to easily view adoptable pets in the searched area.
+        This was completed as my first project for web development bootcamp. My role on this project was as project manager and UI/UX design and development. For this project I chose to learn the Materialize CSS framework, which ultimately led me gaining much better grasp of responsiveness and CSS gridding to achieve the desired layout.</p>
+        <p>Upon completion of bootcamp this was the first project I wanted to revisit. I spent additional time improving the UI to be more heavily similar to Instagram, as a large portion of our feedback was that given the goals of the project, the instruction team wanted to see it look and feel more like Instagram. With more time and fewer hard requirements, I was also able to improve upon the useage of the api and add an initial display of random results, so that the user could see what sort of content would be displayed once a search was conducted. Each step of the way I ensured that Appdoption would function just as easily on mobile as it does on desktop. In going back through this project I also worked to remove almost all uses of jQuery to improve performance.  The only useage is for a simple ajax call, as the no-CORS API does not work with the .fetch() method.  I opted not to route the api via a backend server as the document for Petfinder specifically says to not worry about hiding your API key and that being used purely on the front end is recommended.
+        </p>
 
+
+        <h3>Is Gravity Still Working</h3>
+        <h4><a href="https://www.isgravitystillworking.com" target="_blank">Version 1</a> | 
+            <a href="https://www.github.com/morettiamye/isgravitystillworking" target="_blank">Github</a></h4>
+            <a href="https://www.isgravitystillworking.com" target="_blank"><img src="assets/images/gravity.png" alt="Cats Knocking Stuff Over"></a>
+            <a href="https://www.isgravitystillworking.com" target="_blank"><img src="assets/images/gravity2.png" alt="Cats Knocking Stuff Over"></a>
+        <p>Is Gravity Still Working started as a joke, offhandedly made in a Slack channel of friends.  I, having plenty of free time that day, decided to make the joke a reality and purchased <a href="https://www.isgravitystillworking.com" target="_blank">IsGravityStillWorking.com</a>.  The site is simple, when the page loads a random gif of a cat knocking something over is loaded.  The site started with 14 gifs, and a dropbox folder for adding new ones as we found ones we liked. It was simple to write the Javascript, and even simpler to create the design.  It reminds me a lot of an original internet treasure called You're the Man Now Dog, which was a community of users that would tie together gifs or static images and soundclips to create jokes.  Is Gravity Still Working is simple, but perfectly so and was built exactly as intended.</p>
+  
+          
+      
+      
+        
+        <h3>Campaign Query</h3>
+        <h4><a href="https://campaignquery.herokuapp.com/" target="_blank">Version 1</a> | 
+            <a href="https://www.github.com/morettiamye/campaignquery/">Github</a></h4>
+        <a href="https://campaignquery.herokuapp.com/" target="_blank"><img src="assets/images/campaignquery.png" alt="Campaign Query"></a>
+        <a href="https://campaignquery.herokuapp.com/" target="_blank"><img src="assets/images/cq2.png" alt="Campaign Query Screenshot"></a>
+        <p>Created as our second bootcamp project (and first full stack project), Campaign Query aims to display campaign finance data with easy readability.  This project utilizes Amcharts and Highcharts in conjuction with the Federal Election Commission API routed through a backend Express server using node.JS.  My role for this project was project manager in addition to UX/UI and assisting with API calls. My goal with this project was to use simple, modular CSS as opposed to using a framework. It turned out to be much more difficult than initially anticipated, but I was ultimately able to make it work and was very happy with the result.  Campaign Query received high praise and we were later told it was shared among the administrators because of how interesting our instructors found it. </p>
+        <p>I plan to reapproach Campaign Query in the coming months so that it can be useful for the 2020 election cycle.</p>
+
+        
+
+        <h3>Pikachu Rumble</h3>
+        <h4><a href="https://morettiamye.github.io/pikachu-rumble" target="_blank">Version 1</a> | 
+            <a href="https://www.github.com/morettiamye/pikachu-rumble" target="_blank">Github</a></h4>
+            <a href="https://morettiamye.github.io/pikachu-rumble" target="_blank"><img src="assets/images/pikachu.png" alt="Pikachu Rumble"></a>
+        <p>Pikachu Rumble is a simple JavaScript game made in an afternoon as a simple refresher exercise.  I based it's functionality off of a simple Javascript game made early in the bootcamp program I attended, which was called Crystal Collector.  The game is simple -- hit points and attack power are all chosen at random, and for each attack from the user the opposing Pokemon counterattacks.  The first one to zero wins!  </p>
+
+        <h3>MoreReady.com</h3>
+        <h4><a href="https://www.moreready.com" target="_blank">Version 1</a> | 
+            <a href="https://www.github.com/morettiamye/moreready" target="_blank">Github</a></h4>
+            <a href="https://www.moreready.com" target="_blank"><img src="assets/images/moreready.png" alt="MoreReady"></a>
+            <a href="https://www.moreready.com" target="_blank"><img src="assets/images/moreready2.png" alt="Tony Moretti"></a>
+            <p>MoreReady.com belongs to my husband and I and houses personal work and portfolios.  Tony has owned this domain since before we met, and it was originally a source of confusion until I realized that MoreReady is a play on his very common Italian last name, Moretti.  I maintain this for us, and built the landing page and his single page resume using Bootstrap.</p>
+
+    </div>
+
+    <div class="cat2 background"></div>
+
+
+
+    <div class="contact content">
+        <h2><a id="contact">Contact</a></h2>
+        <p>Want to chat about a project or a role you think I may be a good fit for?<br/>
+        Reach out at: </p>
+        <br/>
+        <a href="https://www.github.com/morettiamye" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/morettiamye/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="mailto:amyemoretti@gmail.com"><i class="fas fa-envelope-square fa-3x"></i></a>
+    </div>
+
+    
 </body>
 
 </html>
