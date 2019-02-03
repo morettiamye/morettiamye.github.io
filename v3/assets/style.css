@@ -7,6 +7,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Karla', sans-serif;
+    color: #434142
 }
 
 .background {
@@ -25,14 +26,14 @@ body, html {
 
 .cat2 {
   background-image: url("images/cat.jpg");
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .header-nav {
   min-width: 100%;
 }
 
-.header-nav, ul {
+.nav-list, ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,7 +41,7 @@ body, html {
   overflow: hidden;  
 }
 
-.header-nav, li {
+.nav-list > li {
   float: right;
   display: block;
   text-align: center;
@@ -48,6 +49,12 @@ body, html {
   font-size: 18px;
   color: #E4DED2;
 }
+
+li > a, li> a:visited, li > a:link, li > a:hover {
+  color: #E4DED2;
+  text-decoration: none;
+} 
+
 
 .caption {
   position: absolute;
@@ -73,6 +80,86 @@ h2 {
 
 .content {
   background-color: #E4DED2;
-  padding: 20px 100px;
+  padding: 30px 100px;
 }
 
+.skills {
+  text-align: center;
+  overflow-x: auto;
+
+}
+
+table {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 32px;
+  color: #434142;
+}
+
+.contact {
+  text-align: center;
+}
+
+form {
+  width: 600px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer {
+  text-align: center;
+}
+
+p > a, p > a:visited, p > a:link, p > a:hover {
+  color: #434142;
+  text-decoration: none;
+  font-weight: bold;
+} 
+
+
+
+@media only screen and (max-width: 992px) {
+
+  .caption {
+    left: 5%;
+    top: 5%;
+    font-size: 24px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+
+} 
+
+@media only screen and (max-width: 600px) {
+
+  .nav-list > li {
+    padding: 5px;
+    font-size: 16px;
+  
+  }
+
+  .caption {
+    left: 10%;
+    top: 10%;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+} 
