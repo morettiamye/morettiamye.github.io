@@ -24,11 +24,6 @@ body, html {
     
 }
 
-.cat2 {
-  background-image: url("images/cat.jpg");
-  min-height: 300px;
-}
-
 .header-nav {
   min-width: 100%;
 }
