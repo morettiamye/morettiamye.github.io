@@ -76,10 +76,22 @@ h2 {
 h3 {
   font-size: 24px;
   font-family: 'Dancing Script', cursive;
+  margin-top: 50px;
 }
 
+h4 {
+  margin-top: 10px;
+}
+
+h4 > a:visited, h4 > a:link, h4 > a:hover, p > a, p > a:visited, p > a:link, p > a:hover {
+  color: #434142;
+  text-decoration: none;
+  font-weight: bold;
+} 
+
+
 .content {
-  background-color: #E4DED2;
+  background-color: #ECE9E0;
   padding: 30px 100px;
 }
 
@@ -87,6 +99,17 @@ h3 {
   text-align: center;
   overflow-x: auto;
 
+}
+
+table {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 32px;
+  color: #434142;
 }
 
 .projects {
@@ -102,43 +125,9 @@ img {
 }
 
 
-
-table {
-  width: 80%;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-i {
-  font-size: 32px;
-  color: #434142;
-}
-
 .contact {
   text-align: center;
 }
-
-form {
-  width: 600px;
-  margin: auto;
-}
-
-input, textarea {
-  width: 500px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.footer {
-  text-align: center;
-}
-
-h4 > a:visited, h4 > a:link, h4 > a:hover, p > a, p > a:visited, p > a:link, p > a:hover {
-  color: #434142;
-  text-decoration: none;
-  font-weight: bold;
-} 
-
 
 
 @media only screen and (max-width: 992px) {
